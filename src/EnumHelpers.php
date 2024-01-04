@@ -1,5 +1,7 @@
 <?php
 
+namespace EnumHelpers;
+
 trait EnumHelpers
 {
     /**
@@ -10,7 +12,7 @@ trait EnumHelpers
     private static function assertStaticIsEnum(): void
     {
         if (!enum_exists(static::class)) {
-            throw new BadMethodCallException(
+            throw new \BadMethodCallException(
                 message: sprintf("The [%s] cannot be used by [%s] because it is not an enum.", __TRAIT__, static::class)
             );
         }
