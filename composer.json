@@ -1,0 +1,17 @@
+{
+    "name": "hrvyncent/enum-helpers",
+    "description": "A utility library for enums",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "EnumHelpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "harvicapino22",
+            "email": "harvincent.parientes.capino@gmail.com"
+        }
+    ],
+    "require": {}
+}
